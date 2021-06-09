@@ -1,0 +1,128 @@
+a=int(input("please enter a number"))
+if a > 10 :
+    print("your number is greater than 10")
+else :
+    print("your number is less than 10")
+
+
+
+
+a=int(input("please enter your age"))
+if a >= 18 :
+    print("you are eligible to drive")
+    
+else :
+    print("you are not eligible to drive")
+    
+    
+    
+    
+    
+    
+    marks=int(input('please enter your marks'))
+
+if marks <= 50 :
+
+    print('Redo the test')
+elif marks>=50 and marks <60 :
+    print('E')
+elif marks>=60 and marks <70 :
+    print('D')
+elif marks>=70 and marks <80 :
+    print('C')
+elif marks>=80 and marks <90 :
+    print('B')
+    
+else :
+    print('A')
+
+
+
+
+
+a=int(input("please enter your number"))
+
+if (a % 2)==0:
+    print("your number is even")
+    
+    
+else :
+    print("your number is odd")
+    
+    
+    
+    
+    a=int(input("please enter the number of chocolates required"))
+
+if a <= 10 :
+    print("True")
+    print("Your total will be =")
+    print(a * 15)
+    
+else :
+    print(False)
+    
+    
+    
+    
+    
+    class Myclass():
+    def init (self,name,age):
+        self.name = name
+    self.age = age
+    friut = "mango"
+    def func1(self):
+        print("hello world")
+        print(self.age)
+        
+obj = Myclass("Arav",18)
+print(obj.name)
+print(obj.age)
+
+
+
+
+total = 0
+for i in range(10):
+    num = int(input("Enter number: "))
+    total += num
+
+print("The sum of all 10 numbers is", total)
+
+
+total = 0
+count = 0
+while count < 10:
+    num = int(input("Enter number: "))
+    total += num
+    count += 1 
+print("The sum of all 10 numbers is", total)
+
+
+
+
+numm = ""
+while num != "-1": 
+    num = input("Enter a number")
+
+
+print("You entered -1!")
+
+
+
+a=input("please enter your name")
+b=input("please enter your name")
+c=input("please enter your name")
+d=input("please enter your name")
+e=input("please enter your name")
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+
+
+
+
+print([ i for i in range(4,101,4) ])
